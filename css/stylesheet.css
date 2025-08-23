@@ -7,8 +7,8 @@
 
 body {
   background:
-  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0.6)),
-  url("img/fundo.gif") no-repeat top center/cover;
+  /* linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0.6)), */
+  url("../img/fundo.gif") no-repeat top center/cover;
   height: 100vh;
 }
 
@@ -18,12 +18,12 @@ body * {
 
 @font-face {
   font-family: 'renogare';
-  src: url("./font/renogare.ttf") format('truetype');
+  src: url("../font/renogare.ttf") format('truetype');
 }
 
 @font-face {
   font-family: 'Pixel Operator';
-  src: url("./font/PixelOperator-Bold.ttf") format('truetype');
+  src: url("../font/PixelOperator-Bold.ttf") format('truetype');
 }
 
 p {
@@ -65,7 +65,7 @@ a {
 #switch button {
   width: 32px;
   height: 32px;
-  background: #efefef url(./img/moon-stars.svg) no-repeat center;
+  background: #efefef url(../img/moon-stars.svg) no-repeat center;
   zoom: 110%;
   border: 0;
   border-radius: 50%;
@@ -79,7 +79,7 @@ a {
 
 .light #switch button {
   animation: slide-in 0.2s forwards;
-  background: #efefef url(./img/sun.svg) no-repeat center;
+  background: #efefef url(../img/sun.svg) no-repeat center;
 }
 
 #switch button:hover {
@@ -261,14 +261,14 @@ ul li a:hover {
   body {
     background: 
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/img/fundo.gif);
+    url(../img/fundo.gif);
     background-color: rgba(0, 0, 0, 0.9);
   }
 
   .light body {
     background: 
     linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(/img/fundo.gif);
+    url(../img/fundo.gif);
   }
 }
 
